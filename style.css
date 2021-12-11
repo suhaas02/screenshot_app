@@ -1,0 +1,73 @@
+/* Align the body to the center. Align all text within the body to center as well. Set background-color to light blue */
+
+body{
+    font-family: "rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #ADD8E6;
+  }
+  
+  /* Change the color of the icon to grey */
+  
+  i {
+    color: grey;
+    margin: 0 1rem;
+  }
+  
+  /* Ensure that containing box is at the center. Set a max-width so content doesn't burst out of container */
+  
+  .container {
+    margin: 50px auto;
+    max-width: 1100px;
+  }
+  
+  /* Set height of image container to 50 percent of browser window's height and width to 40 percent of window's width. Sets backround to white. Make the border rounder, and increase font size */
+  
+  .image {
+    margin-top: 10vh;
+    height: 50vh;
+    width: 40vw;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 6px;
+  }
+  
+  /* Create a class for the eventual screenshot image. This image will not be present at the start. The class will be passed to the new image from JavaScript */
+  
+  .screenshot {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Display title and icon side by side */
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Set padding, margin and font-size. Removes border line and make border rounder */
+  
+  #url {
+    padding: .7rem .7rem;
+    margin: .3rem .3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  /* Same styles with input. Set cursor to pointer and background to blue */
+  
+  #btn {
+    padding: .7rem .7rem;
+    margin: .3rem .3rem;
+    background-color: blue;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
